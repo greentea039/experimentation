@@ -21,7 +21,7 @@
 // @resource        ui-icons_454545_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/images/ui-icons_454545_256x240.png
 // @resource        ui-icons_888888_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/images/ui-icons_888888_256x240.png
 // @resource        ui-icons_cd0a0a_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/images/ui-icons_cd0a0a_256x240.png
-// @resource        fragment.html                               https://raw.github.com/greentea039/test/master/jqueryui/greasemonkey/resources/fragment.html
+// @resource        fragment.html                               https://raw.github.com/greentea039/test/master/user-script/resource-example/resources/fragment.html
 // @run-at          document-end
 // ==/UserScript==
 
@@ -71,6 +71,15 @@ var browserExtension = {
 			}
 		}
 	},
+	addStyle: function (styleText) {
+		if (util.isChrome) {
+			var styleElement = document.createElement("style");
+			styleElement.textContent = styleText;
+			document.documentElement.appendChild(styleElement);
+		} else {
+			GM_addStyle(styleText);
+		}
+	},
 	addStyleFromResource: function (styleResourcePath, styleResouceName, imageResouceInfoArray) {
 		browserExtension.requestResourceText(styleResourcePath, styleResouceName, function (styleText) {
 			// replace image URLs
@@ -83,13 +92,7 @@ var browserExtension = {
 				styleText = styleText.replace(regex, imageResourceURL);
 			}
 			// add style
-			if (util.isChrome) {
-				var styleElement = document.createElement("style");
-				styleElement.textContent = styleText;
-				document.documentElement.appendChild(styleElement);
-			} else {
-				GM_addStyle(styleText);
-			}
+			browserExtension.addStyle(styleText);
 		});
 	},
 }
