@@ -21,7 +21,7 @@
 // @resource        ui-icons_ef8c08_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png
 // @resource        ui-icons_ffd27a_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png
 // @resource        ui-icons_ffffff_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/images/ui-icons_ffffff_256x240.png
-// @resource        htmlFlagment     https://raw.github.com/greentea039/test/master/jqueryui/greasemonkey/resources/flagment.html
+// @resource        htmlFlagment     https://raw.github.com/greentea039/test/master/jqueryui/greasemonkey/resources/fragment.html
 // @run-at          document-end
 // ==/UserScript==
 					
