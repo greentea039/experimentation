@@ -4,7 +4,6 @@
 // @version         1.0
 // @include         http://*/*
 // @include         https://*/*
-// @delay 20
 // @require         https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
 // @require         https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js
 // @resource        jquery-ui.css                               https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css
