@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name            test
-// @namespace       test
+// @name            Resource utilization example
+// @namespace       Resource utilization example
 // @version         1.0
 // @include         http://*/*
 // @include         https://*/*
@@ -21,7 +21,7 @@
 // @resource        ui-icons_454545_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/images/ui-icons_454545_256x240.png
 // @resource        ui-icons_888888_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/images/ui-icons_888888_256x240.png
 // @resource        ui-icons_cd0a0a_256x240.png                 https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/images/ui-icons_cd0a0a_256x240.png
-// @resource        fragment.html                               https://raw.github.com/greentea039/test/master/user-script/resource-example/resources/fragment.html
+// @resource        fragment.html                               https://raw.github.com/greentea039/experimentation/master/user-script/resource-utilization-example/resources/fragment.html
 // @run-at          document-end
 // ==/UserScript==
 
