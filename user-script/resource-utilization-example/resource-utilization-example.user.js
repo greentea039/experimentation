@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name            Resource utilization example
-// @namespace       Resource utilization example
+// @description     Example of getting CSS texts, CSS images and HTML texts from resources
+// @namespace       https://github.com/greentea039/experimentation/tree/master/user-script/resource-utilization-example
 // @version         1.0
 // @include         http://*/*
 // @include         https://*/*

@@ -2,7 +2,7 @@
 	"name": "Resource utilization example",
 	"version": "1.0",
 	"manifest_version": 2,
-	"description": "test",
+	"description": "Example of getting CSS texts, CSS images and HTML texts from resources",
 	"content_scripts": [ {
 		"js": [
 			"scripts/jquery-1.8.3.min.js",
