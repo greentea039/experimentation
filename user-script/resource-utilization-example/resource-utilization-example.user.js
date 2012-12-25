@@ -75,7 +75,7 @@ var browserExtension = {
 		if (util.isChrome) {
 			var styleElement = document.createElement("style");
 			styleElement.textContent = styleText;
-			document.documentElement.appendChild(styleElement);
+			document.documentElement.insertBefore(styleElement, null);
 		} else {
 			GM_addStyle(styleText);
 		}
