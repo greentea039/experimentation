@@ -7,7 +7,7 @@
 //		"css": [ "jquery-ui.css" ],
 		"js": [ "jquery-1.8.3.min.js", "jquery-ui-1.9.2.custom.min.js", "test.user.js" ],
 		"matches": [ "http://*/*", "https://*/*" ],
-		"run_at": "document_idle"
+		"run_at": "document_end"
 	} ],
 	"web_accessible_resources": [
 		"resources/jquery-ui.css",
